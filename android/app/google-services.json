@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127973270666",
+    "project_id": "learnloop-9b70a",
+    "storage_bucket": "learnloop-9b70a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127973270666:android:8737cc646f2848f6343973",
+        "android_client_info": {
+          "package_name": "com.ahmad.learn_loop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGubKXU2CRunqy88OuRd35VPVZIqtRBuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
