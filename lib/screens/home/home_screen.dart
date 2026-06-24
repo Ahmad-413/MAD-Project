@@ -6,6 +6,7 @@ import '../../models/post_model.dart';
 import '../../services/firestore_service.dart';
 import '../../widgets/shimmer_card.dart';
 import '../../widgets/skill_card.dart';
+import '/screens/notification_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -81,10 +82,20 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: AppColors.secondary,
                           borderRadius: BorderRadius.circular(12),
                         ),
-                        child: const Icon(
-                          Icons.notifications_outlined,
-                          color: AppColors.textLight,
-                          size: 22,
+                        child: IconButton(
+                          icon: const Icon(
+                            Icons.notifications_outlined,
+                            color: AppColors.textLight,
+                            size: 22,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const NotificationScreen(),
+                              ),
+                            );
+                          },
                         ),
                       ),
                     ),
